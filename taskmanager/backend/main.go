@@ -98,11 +98,11 @@ func main() {
 		port = "8080"
 	}
 	
-	log.Printf("🚀 Server starting on http://localhost:%s", port)
+	log.Printf(" Server starting on http://localhost:%s", port)
 	log.Println("📁 Serving frontend from: ../frontend")
 	
 	if err := router.Run(":" + port); err != nil {
-		log.Fatal("❌ Server failed to start:", err)
+		log.Fatal(" Server failed to start:", err)
 	}
 }
 
