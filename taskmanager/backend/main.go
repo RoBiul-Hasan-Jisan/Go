@@ -99,7 +99,7 @@ func main() {
 	}
 	
 	log.Printf(" Server starting on http://localhost:%s", port)
-	log.Println("📁 Serving frontend from: ../frontend")
+	log.Println(" Serving frontend from: ../frontend")
 	
 	if err := router.Run(":" + port); err != nil {
 		log.Fatal(" Server failed to start:", err)
