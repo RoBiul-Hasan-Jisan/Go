@@ -33,7 +33,7 @@ func main() {
 		if err != nil {
 			log.Fatal(err)
 		}
-		fmt.Println("✅ Task added successfully")
+		fmt.Println(" Task added successfully")
 
 	case "list":
 		todos, err := manager.List()
@@ -55,7 +55,7 @@ func main() {
 		if err != nil {
 			log.Fatal(err)
 		}
-		fmt.Println("✅ Task marked as complete")
+		fmt.Println(" Task marked as complete")
 
 	case "delete":
 		if len(os.Args) < 3 {
@@ -70,7 +70,7 @@ func main() {
 		if err != nil {
 			log.Fatal(err)
 		}
-		fmt.Println("🗑️ Task deleted successfully")
+		fmt.Println(" Task deleted successfully")
 
 	case "clear":
 		err := manager.Clear()

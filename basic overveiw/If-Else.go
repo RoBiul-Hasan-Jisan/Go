@@ -22,3 +22,20 @@ func main() {
 	fmt.Println("Zero")
    }
 }
+
+/*
+
+if condition1 {
+    if condition2 {
+        // code runs when condition1 AND condition2 are true
+    } else {
+        // code runs when condition1 is true but condition2 is false
+    }
+} else if condition3 {
+    // code runs when condition1 is false AND condition3 is true
+} else {
+    // code runs when all above conditions are false
+}
+
+
+*/
